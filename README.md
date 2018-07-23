@@ -1,6 +1,9 @@
 # RelVal_BTV_HLT
 Release Validation for BTV (b-tagging) at HLT (High Level Trigger)
 
+## Reports go here:
+https://cms-pdmv.cern.ch/valdb/
+
 ## Find datasets
 https://cmsweb.cern.ch/das/request?input=dataset%20status=*%20dataset=/RelValTTbar_13/CMSSW_10_2_0*realistic*/GEN-SIM-*&instance=prod/global&amp;idx=50&&amp;limit=100
 
@@ -31,6 +34,6 @@ scram b -j4
 cd HLTriggerOffline/Btag/test
 
 cmsRun testSequences.py [dataset name]
-# for example: 
+#for example: 
 #cmsRun testSequences.py /RelValTTbar_13/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM-DIGI-RAW 
 ```
